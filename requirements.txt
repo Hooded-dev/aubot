@@ -1,0 +1,12 @@
+streamlit
+langchain
+numpy
+sentence-transformers
+fastcore
+openai
+unstructured
+unstructured[local-inference]
+selenium
+faiss-cpu
+tiktoken
+streamlit
