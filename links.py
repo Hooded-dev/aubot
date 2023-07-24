@@ -22,7 +22,7 @@ def links():
                 if is_admission_link(absolute_link):
                     links.append(absolute_link)
         all_links.extend(links)
-    print(len(all_links))
+#    print(len(all_links))
     with open('links.txt', mode='wt', encoding='utf-8') as myfile:
             myfile.write('\n'.join(all_links))
     return all_links
